@@ -1,5 +1,5 @@
-<img src="./example_1.png" width="220" />
-<img src="./example_2.png" width="220" />
+<!-- <img src="./example_1.png" width="220" />
+<img src="./example_2.png" width="220" /> -->
 
 # react-native-fast-qrcode
 
