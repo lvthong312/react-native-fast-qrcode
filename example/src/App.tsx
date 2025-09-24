@@ -1,12 +1,12 @@
 import { View, StyleSheet, ScrollView } from 'react-native';
-import { QRCode } from 'react-native-fast-qrcode';
+import { QRCodeList, QRCode } from 'react-native-fast-qrcode';
 
 export default function App() {
   return (
     <ScrollView>
       <View style={styles.container}>
         {/* Basic QR */}
-        <QRCode value="https://example.com1" size={200}  ecl='M'/>
+        <QRCode value="https://example.com1" size={200} ecl="M" />
 
         {/* Circle style */}
         <QRCode
@@ -14,7 +14,6 @@ export default function App() {
           size={200}
           style="circle"
           gradient={{ from: '#ff512f', to: '#dd2476', direction: 'vertical' }}
-         
         />
 
         {/* Diamond style + logo */}
@@ -40,6 +39,28 @@ export default function App() {
           logoSize={50}
           backgroundColor="white"
         />
+
+        <QRCodeList
+          values={['QR-111', 'QR-222', 'QR-333']}
+          qrcodeProps={{ size: 160 }}
+          showArrows
+          showDots
+          dotSize={10}
+          dotColor="#bbb"
+          activeDotColor="blue"
+          paginationType="fraction"
+        />
+        <QRCodeList
+          values={['QR-111', 'QR-222', 'QR-333']}
+          qrcodeProps={{ size: 160 }}
+          showArrows
+          showDots
+          dotSize={10}
+          dotColor="#bbb"
+          activeDotColor="blue"
+          paginationType="fraction"
+          animationType="none"
+        />
       </View>
     </ScrollView>
   );
@@ -51,6 +72,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 50,
-    marginTop: 100
+    marginTop: 100,
   },
 });
