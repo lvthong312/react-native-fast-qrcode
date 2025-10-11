@@ -2,6 +2,11 @@
 <img src="./example_2.png" width="220" /> -->
 
 # react-native-fast-qrcode
+<p align="center">
+  <img src="https://img.shields.io/npm/v/react-native-fast-qrcode?color=green" alt="npm version" />
+  <img src="https://img.shields.io/npm/dm/react-native-fast-qrcode" alt="npm downloads" />
+  <img src="https://img.shields.io/badge/react--native-0.70+-blue" alt="react-native" />
+</p>
 
 A customizable QRCode component for React Native, built with react-native-svg
 and qrcode
@@ -27,13 +32,14 @@ yarn add react-native-fast-qrcode react-native-svg qrcode
 npm install react-native-fast-qrcode react-native-svg qrcode
 
 ```
+## 📸 Preview
+
+![Preview](./example/ex1.png)
+![Preview](./example/ex2.png)
 
 ## Usage
 
-```js
-import { multiply } from 'react-native-fast-qrcode';
-
-// ...
+```tsx
 
 import { View, StyleSheet, ScrollView } from 'react-native';
 import { QRCode } from 'react-native-fast-qrcode';
