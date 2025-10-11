@@ -33,9 +33,11 @@ npm install react-native-fast-qrcode react-native-svg qrcode
 
 ```
 ## 📸 Preview
+<p align="center">
+  <img src="./example/ex1.png" alt="App Screenshot" width="300" />
+  <img src="./example/ex2.png" alt="App Screenshot" width="300" />
+</p>
 
-![Preview](./example/ex1.png)
-![Preview](./example/ex2.png)
 
 ## Usage
 
