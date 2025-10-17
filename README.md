@@ -117,17 +117,3 @@ const styles = StyleSheet.create({
 | **logoSize**        | `number`                                                               | `40`            | Kích thước logo (width & height)                     |
 | **finderColor**     | `string`                                                               | same as `color` | Màu **Finder Pattern** (3 ô vuông lớn của QR code)   |
 | **finderRadius**    | `number`                                                               | `0`             | Bo góc cho **Finder Pattern**                        |
-
-## Contributing
-
-- [Development workflow](CONTRIBUTING.md#development-workflow)
-- [Sending a pull request](CONTRIBUTING.md#sending-a-pull-request)
-- [Code of conduct](CODE_OF_CONDUCT.md)
-
-## License
-
-MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
